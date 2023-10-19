@@ -119,6 +119,7 @@ abstract class BasePickerType extends AbstractType implements LocaleAwareInterfa
         'hours' => 'bool',
         'minutes' => 'bool',
         'seconds' => 'bool',
+        'useTwentyfourHour' => 'bool',
     ];
 
     public function __construct(
